@@ -1,5 +1,5 @@
 #import "AppDelegate.h"
-#import "MainViewController.h"
+#import "CountryViewController.h"
 #import "Product.h"
 
 @implementation AppDelegate;
@@ -264,12 +264,12 @@
 					
 	
 	// Create and configure the main view controller.
-	MainViewController *mainViewController = [[MainViewController alloc] initWithNibName:@"MainView" bundle:nil];
-	mainViewController.listContent = listContent;
+	CountryViewController *countryViewController = [[CountryViewController alloc] initWithNibName:@"MainView" bundle:nil];
+	countryViewController.listContent = listContent;
 	[listContent release];
 	
 	// Add create and configure the navigation controller.
-	UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:mainViewController];
+	UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:countryViewController];
 	self.navController = navigationController;
 	[navigationController release];
 	

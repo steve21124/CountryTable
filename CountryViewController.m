@@ -1,4 +1,4 @@
-#import "MainViewController.h"
+#import "CountryViewController.h"
 #import "Product.h"
 
 @interface NSArray (SSArrayOfArrays)
@@ -32,7 +32,7 @@
 
 @end
 
-@implementation MainViewController
+@implementation	CountryViewController
 
 @synthesize listContent, filteredListContent, sectionedListContent, savedSearchTerm, savedScopeButtonIndex, searchWasActive;
 

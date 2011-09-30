@@ -1,4 +1,4 @@
-@interface MainViewController : UITableViewController <UISearchDisplayDelegate, UISearchBarDelegate>
+@interface CountryViewController : UITableViewController <UISearchDisplayDelegate, UISearchBarDelegate>
 {
 	NSArray			*listContent;			// The master content.
 	NSMutableArray	*filteredListContent;	// The content filtered as a result of a search.
